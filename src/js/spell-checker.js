@@ -15,7 +15,6 @@ function CodeMirrorSpellChecker(options) {
 	options.urlDic = options.urlDic || "https://cdn.jsdelivr.net/codemirror.spell-checker/latest/en_US.dic";
 
 
-
 	// Verify
 	if(typeof options.codeMirrorInstance !== "function" || typeof options.codeMirrorInstance.defineMode !== "function") {
 		console.log("CodeMirror Spell Checker: You must provide an instance of CodeMirror via the option `codeMirrorInstance`");
