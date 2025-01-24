@@ -1,5 +1,5 @@
 /**
- * @codebit-programando-solucoes/codemirror-spell-checker v1.1.3
+ * @codebit-programando-solucoes/codemirror-spell-checker v1.1.5
  * Copyright Next Step Webs, Inc.
  * @link https://github.com/NextStepWebs/codemirror-spell-checker
  * @license MIT
@@ -921,7 +921,7 @@ function CodeMirrorSpellChecker(options) {
 
 
 		// Define what separates a word
-		var rx_word = "!\"#$%&()*+,-./:;<=>?@[\\]^_`{|}~ ";
+		var rx_word = "!\"#$%&()*+,-./:;<=>?@[\\]^_`{|}~ \t\r\n";
 
 
 		// Create the overlay and such
